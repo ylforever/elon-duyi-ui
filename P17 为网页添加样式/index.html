@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P17 为网页添加样式</title>
+    <style>
+        h1 {
+            color: brown;
+            background-color: cadetblue;
+            text-align: center;
+        }
+
+        p {
+            color: darkblue;
+            text-align: left;
+        }
+
+        #section1 {
+            color: darkkhaki;
+        }
+
+        .class1 {
+            color: darkmagenta;
+        }
+
+        .class2 {
+            font-size: 3em;
+            text-align: center;
+        }
+    </style>
+    <link rel="stylesheet" href="./css/index.css">
+</head>
+
+<body>
+    <h1>
+        为H1添加样式
+    </h1>
+    <article>
+        <p>CSS规则=选择器+申明块</p>
+        <section id="section1">元素选择器</section>
+        <section class="class1">ID 选择器</section>
+        <section class="class1">类选择器</section>
+        <p class="class1 class2">选择器</p>
+
+        <section>
+            CSS的声明块。属性设置
+        </section>
+
+        <section>
+            CSS代码书写位置：
+            <p>
+                1.内部样式表。在head中定义style， 也可以定义在body里面。
+            </p>
+            <p style="color: darksalmon;background-color: darkviolet;">
+                2. 内联样式表。
+            </p>
+            <p class="class3">
+                3. 外部样式表.独立的CSS文件
+            </p>
+        </section>
+    </article>
+</body>
+
+</html>

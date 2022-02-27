@@ -1,0 +1,82 @@
+/*
+通配符选择器
+*/
+/* * {
+    color: red;
+} */
+
+/*
+属性选择器
+*/
+/* [href] {
+    color: red;
+} */
+
+/* [href="htt3"] {
+    color: rebeccapurple;
+    font-weight: bold;
+} */
+
+/*
+伪类选择器(元素的状态). 鼠标悬停状态
+*/
+/* a:hover {
+    color: aquamarine;
+} */
+
+/*
+鼠标按下时的状态
+*/
+/* a:active{
+    color: brown;
+} */
+
+/* a:link{
+    color: chocolate;
+}
+
+a:visited {
+    color: burlywood;
+}
+
+/*
+伪元素选择器
+*/
+/* span::before {
+    content: "《";
+    color: red;
+} */
+
+/* span::after {
+    content: "》";
+    color: red;
+}  */
+
+/*
+选择器组合
+*/
+
+/* 1. 并且 用 .  */
+/* p {
+    text-indent: 2em;
+}
+
+p.redclass {
+    color: red;
+} */
+
+/* 2. 后代元素 用空格*/
+/* div.divclass li {
+    color: red;
+} */
+
+/* p.red {
+    color: blue;
+}
+
+.divclass .red {
+    color: red;
+} */
+
+
+/* 3. 选择器并列 */
