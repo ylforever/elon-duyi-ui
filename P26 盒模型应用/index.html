@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P26 盒模型应用</title>
+    <style>
+        .div1 {
+            width: 180px;
+            height: 30px;
+            background-color: green;
+            border:solid;
+            box-sizing: border-box;
+            padding-left: 20px;
+        }
+
+        .div2 {
+            width: 350px;
+            height: 300px;
+            background-color: blue;
+            padding-left: 20px;
+            padding-right: 20px;
+            background-clip:content-box;
+            border: solid;
+            box-sizing: border-box;
+            overflow:auto;
+            word-break:normal;
+        }
+
+        .div3 {
+            width: 200px;
+            height: 100px;
+            padding-left: 1px;
+            padding-right: 2px;
+            background-clip:content-box;
+            border: solid;
+            box-sizing: border-box;
+            word-break:normal;
+        }
+
+
+        li {
+            border-bottom: solid red;
+            border-left: 1px dashed blue;
+            width: 120px;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+
+        }
+    </style>
+</head>
+<body>
+    <h1>1. 改变宽度和高度</h1>
+    <div class = div1>
+        页游中心
+    </div> 
+
+    <h1>背景覆盖范围</h1>
+    <div class = div2>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus, ab at. Adipisci itaque nesciunt accusantium ut sint, atque sunt cupiditate iusto sapiente, sed commodi beatae? Dolores minus modi laborum veniam.
+    </div>
+
+    <h1>空白处理</h1>
+    <div class = div3>
+       <ul>
+            <li>1212a1wjdwje;e</li>
+            <li>jhsdhuiuisuiwe</li>
+            <li>jlkjljsdk;sd;;sd;ksdkksd</li>
+       </ul>
+    </div>
+</body>
+</html>
