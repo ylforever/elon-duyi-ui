@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P42 表单元素。学习进度：8分钟</title>
+</head>
+<body>
+    <h2>表单元素是一系列元素，用于收集用户信息</h2>
+    <h3>1.Input输入框</h3>
+    <fieldset>
+    <legend>账号信息</legend>
+    <form action="https://www.baidu.com" method="get">
+        <p>
+            <label>账号:
+                <input type="text" name="zhanghao" placeholder="请输入账号" readonly>
+            </label>
+        </p>
+        <p>
+            <label>密码:
+                <input type="password" name="mima" placeholder="请输入密码" disabled>
+            </label>
+        </p>
+        <p>
+            <label>选择城市：</label>
+            <select name="city" multiple>
+                <option value="1">成都</option>
+                <option value="2">重庆</option>
+                <option value="3">长春</option>
+            </select>
+        </p>
+        <button type="submit">提交
+        </button>
+    </form>
+    </fieldset>
+
+    <p>
+        <label>性别:
+            <label>
+                <input type="radio" name="xb" value="man">
+                Man
+            </label>
+            <label>
+                <input type="radio" name="xb" value="woman" checked>
+                Woman
+            </label>
+        </label>
+    </p>
+    <p>
+        <label>生日:
+            <input type="date">
+        </label>
+    </p>
+    <p>
+        <label>喜欢颜色:
+            <input type="color">
+        </label>
+    </p>
+    <p>
+        <label for="">幸运数字:
+            <input type="number" min="0" max="100" step="10">
+        </label>
+    </p>
+    <p>
+        <label>爱好:
+            <label>
+                <input type="checkbox" name="aihao">
+                篮球
+            </label>
+            <label>
+                <input type="checkbox" name="aihao" checked>
+                足球
+            </label>
+            <label>
+                <input type="checkbox" name="aihao">
+                游泳
+            </label>
+        </label>
+    </p>
+    <p>
+        <label>申请文件:
+            <input type="file" multiple="true">
+            <input type="button" value="清空">
+        </label>
+    </p>
+    <p>
+        <label>
+            请选择城市:
+            <select>
+                <optgroup label="北方城市">
+                    <option>北京</option>
+                    <option>哈尔滨</option>
+                    <option>沈阳</option>
+                </optgroup>
+                <optgroup label="南方城市">
+                    <option>广州</option>
+                    <option>深圳</option>
+                </optgroup>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label>
+            请选择喜欢的城市:
+            <select multiple>
+                <optgroup label="北方城市">
+                    <option>长春</option>
+                    <option>大连</option>
+                    <option>沈阳</option>
+                </optgroup>
+                <optgroup label="南方城市">
+                    <option>佛山</option>
+                    <option>东莞</option>
+                </optgroup>
+            </select>
+        </label>
+    </p>
+    <p>
+        <label for="">简介:</label>
+    </p>
+    <p>
+        <textarea style="width: 400px;height: 200px;" placeholder="默认内容"></textarea>
+    </p>
+    <p>
+        <button type="button">提交</button>
+    </p>
+
+    <p>
+        和表单元素配合的其它元素
+    </p>
+
+    <p>datalist和普通文本框配合使用（不常用）</p>
+    <p>
+        <label>请输入常用浏览器:</label>
+        <input list="explore" type="text" style="width: 500px;">
+        <datalist id="explore">
+            <option value="chrome">谷歌浏览</option>
+            <option value="IE">IE流量器</option>
+            <option value="fire fox">火狐浏览器</option>
+        </datalist>
+    </p>
+
+    <p>form元素将表单元素包含在一个表单内，提交时将表单元素数据提交到服务器</p>
+
+    <p>fieldset用于对表单元素分组</p>
+
+
+</body>
+
+
+</html>

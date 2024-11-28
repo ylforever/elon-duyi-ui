@@ -1,0 +1,38 @@
+.main {
+    width: 100%;
+}
+
+.modal {
+    width: 100%;
+    position: fixed;
+    height: 100%;
+    left: 0;
+    top: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal .dialog {
+    width: 404px;
+    height: 512px;
+    background-color: white;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+    position: absolute;
+    padding: 2em;
+}
+
+.modal .dialog .close_btn {
+    width: 20px;
+    height: 20px;
+    background-color: red;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 15px;
+    position: absolute;
+    top: -3px;
+    right: -3px;
+    border: 2px solid white;
+}

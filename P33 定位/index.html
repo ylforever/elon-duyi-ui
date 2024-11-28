@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P33 定位</title>
+    <style>
+        .item {
+            height: 50px;
+            background-color: red;
+            border: 2px solid black;
+        }
+
+        .relative-position {
+            position: relative;
+            left: 20px;
+            top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <h1>手动控制元素在包含块中的精准位置</h1>
+    <p>定位和浮动一样，会脱离常规流。相对定位除外。常规流元素摆放时会忽略脱离常规流的元素</p>
+    <p>计算高度会脱离常规流的元素. 注意：会造成高度坍塌</p>
+
+
+    <h2>1.相对定位</h2>
+    <p>相对定位主要是为固定定位提供内容盒</p>
+    <div class="item"></div>
+    <div class="item relative-position"></div>
+    <div class="item"></div>
+    <h2>2.绝对定位</h2>
+    <P>包含块：找祖先元素中第一个定位元素。找不到则包含块是整个网页</P>
+
+    <div style="width: 800px;height: 500px;border: 2px solid black; padding: 20px 20px 20px 20px;position: relative;">
+        <div style="width: 600px;height: 300px; border: 2px solid black;padding: 20px 20px;">
+            <div style="width: 100px;height: 100px;border: 2px solid black;background-color: 
+            rebeccapurple;position: absolute;left: 0;">
+            </div>
+        </div>
+    </div>
+    <h2>3.固定定位</h2>
+    <p>固定定位跟绝对定位相同，除了包含块不一样。包含块为：可视窗口</p>
+    <p>绝对定位，固定定位一定是块盒</p>
+
+</body>
+</html>

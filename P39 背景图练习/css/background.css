@@ -1,0 +1,53 @@
+body {
+    background: url("../img/OIP-C.png") no-repeat 0 0/100%;
+}
+
+.nav {
+    position: relative;
+}
+
+.nav .menu {
+    padding-left: 105px;
+}
+.nav .menu .item {
+    width: 150px;
+    height: 73px;
+    text-align: center;
+    float: left;
+    color: #d9a630;
+    box-sizing: border-box;
+    border: 1px solid #3f2a22;
+}
+
+.nav .logo {
+    width: 150px;
+    height: 73px;
+    position: absolute;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.nav .menu .item:nth-child(1) {
+    border-left: none;
+}
+
+.nav .menu .item:last-child{
+    border-right: none;
+}
+
+.nav .menu .item a{
+    font-size: 1.3em;
+}
+
+.nav {
+    width: 1198px;
+    height: 73px;
+    line-height: 69px;
+    background-color: black;
+    margin: 0 auto;
+}
+
+.nav .menu .item:nth-child(3) {
+    margin-right: 100px;
+}

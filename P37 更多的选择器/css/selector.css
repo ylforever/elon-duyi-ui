@@ -1,0 +1,29 @@
+/*选中第一个子元素*/
+li:first-child{
+    color: red;
+}
+
+/*选中最后一个子元素*/
+li:last-child{
+    color: yellow;
+}
+
+/*选中第3个子元素*/
+li:nth-child(3){
+    color: red;
+} 
+
+/*选中第一个字母*/
+p::first-letter{
+    color: red;
+}
+
+/*选中第一行*/
+p::first-line{
+    color: blue;
+}
+
+/*选中被用户框选的文字*/
+p::selection{
+    color: yellow;
+}

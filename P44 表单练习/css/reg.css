@@ -1,0 +1,111 @@
+.reg_form {
+    width: 980px;
+    margin: 1em auto;
+}
+
+.reg_form .reg_form_body {
+    width: 423px;
+    margin: 0px auto;
+}
+
+.reg_form .reg_form_header .reg_header {
+    text-align: center;
+    font-size: 38px;
+    border-bottom: 1px solid #000;
+    height: 26px;
+    margin-bottom: 80px;
+}
+
+.reg_form .reg_form_header .reg_header span {
+    background-color: white;
+    padding: 0px 10px;
+}
+
+.reg_form .reg_form_body .reg_form_Item {
+    margin-top: 20px;
+    width: 100%;
+    box-sizing: border-box;
+}
+
+input[type="text"], input[type="password"]{
+    border: 1px solid #dcd6d6;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 4px;
+    height: 40px;
+    text-indent: 1em;
+    font-size: 14px;
+}
+
+input[type="text"]:hover, input[type="password"]:hover {
+    border-color: #8c8c8c;
+}
+
+input[type="text"]::placeholder, input[type="password"]::placeholder {
+    color: rebeccapurple;
+}
+
+input[type="text"]:focus, input[type="password"]:focus {
+    border-color: aquamarine;
+}
+
+.select_area {
+    float: left;
+    width: 80px;
+}
+
+.mobile {
+    float: left;
+    width: 343px;
+}
+
+.reg_form_email a {
+    float: right;
+    text-align: right;
+    font-size: small;
+    color: blue;
+}
+
+.msg_check .input_msg {
+    float: left;
+    width: 353px;
+}
+
+.msg_check .get_msg {
+    float: left;
+    width: 70px;
+}
+
+.msg_check .get_msg button {
+    height: 40px;
+}
+
+.reg_form_Item .reg_btn {
+    width: 423px;
+    height: 40px;
+}
+
+.reg_form_login a {
+    float: right;
+    text-align: right;
+    font-size: small;
+    color: blue;
+}
+
+.select_area {
+    border: 1px solid #dcd6d6;
+    box-sizing: border-box;
+    height: 40px;
+}
+
+.reg_form_readme a {
+    font-size: small;
+}
+
+.reg_form_readme{
+    font-size: small;
+}
+
+.reg_form_msg_check {
+    margin-top: 40px;
+}

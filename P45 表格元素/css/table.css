@@ -1,0 +1,44 @@
+.std_table {
+    width: 500px;
+    height: 300px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table_title {
+    font-size: 2em;
+    font: bold;
+    color: red;
+    margin-bottom: 10px;
+}
+
+th, td {
+    border: 1px solid #ccc;
+    text-align: center;
+}
+
+th {
+    background-color: #008c8c;
+    color: white;
+    height: 35px;
+}
+
+tbody tr:nth-child(odd) {
+    background-color: #ccc;
+}
+
+tbody tr:hover {
+    background-color: aquamarine;
+}
+
+tbody td:first-child {
+    color: chocolate;
+}
+
+tfoot td {
+    text-align: right;
+    padding-right: 20px;
+}

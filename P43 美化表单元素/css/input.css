@@ -1,0 +1,48 @@
+input:focus {
+    outline: 1px red solid;
+    outline-offset: 1px;
+    color: blue;
+}
+
+input:checked+label {
+    color: red;
+}
+
+textarea{
+    resize: none;
+    width: 200px;
+    height: 50px;
+    text-indent: 10px;
+}
+
+.radio {
+    content: "";
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    border: 1px solid #008c8c;
+    border-radius: 50%;
+    cursor: pointer;
+}
+
+
+.radio-item input:checked+.radio::after {
+    content: "";
+    width: 6px;
+    height: 6px;
+    display: inline-block;
+    border: 1px solid #008c8c;
+    border-radius: 50%;
+    margin-left: 3px;
+    margin-top: 3px;
+    position:absolute;
+    background-color: #008c8c;
+}
+
+.radio-item {
+    margin-left: 20px;
+}
+
+.radio-item input[type="radio"] {
+    display: none;
+}

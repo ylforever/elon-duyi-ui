@@ -1,0 +1,54 @@
+.header {
+    background-color: #e3e4e5;
+    color: #999;
+    line-height: 50px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+}
+
+.header .menu .menuitem {
+    float: left;
+    margin-left: 20px;
+    height: 60px;
+    width: 150px;
+    box-sizing: border-box;
+    text-align: center;
+    position: relative;
+}
+
+.header .menu .menuitem:hover {
+    background-color: aqua;
+    border: 1px solid white;
+    border-bottom: none;
+}
+
+.header .menu .submenu {
+    text-align: left;
+    line-height: 1.5;
+    width:150px;
+    background-color: aquamarine;
+    display: none;
+}
+
+.header .menu .menuitem:hover .submenu {
+    display: block;
+    border: 2px solid #ccc;
+    border-top: none;
+    position: absolute;
+    right: 0;
+    width: 150px;
+    background-color: aqua;
+    box-sizing: border-box;
+}
+
+.header .menu .menuitem a {
+    font-size: 22px;
+}
+
+.header .menu .menuitem a img {
+    width: 30px;
+    height: 30px;
+    margin-top: 12px;
+}

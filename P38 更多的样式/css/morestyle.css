@@ -1,0 +1,47 @@
+.toumingkuai1 {
+    position: absolute;
+    left: 100px;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    opacity: 0.5;
+}
+
+.toumingkuai2 {
+    position: absolute;
+    right: 100px;
+    top: 50px;
+    width: 400px;
+    height: 400px;
+    background-color: red;
+    border: 20px solid rgba(0, 0, 0, 0.3);
+    background-clip: padding-box;
+}
+
+.shubiao {
+    width: 200px;
+    height: 200px;
+    background-color: blue;
+    border: 2px solid;
+    cursor: pointer;
+    overflow: scroll;
+}
+
+.background {
+    width: 800px;
+    height: 600px;
+    border: 2px solid;
+    background-image: url("../img/3b87c63b473ed2418a6aa3fb6c212621.jpg");
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center;
+}
+
+.xuebitu {
+    width: 55px;
+    height: 70px;
+    background-image: url("../img/th.png");
+    background-repeat: no-repeat;
+    background-position: -80.9px -70.6px;
+}

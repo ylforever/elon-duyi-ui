@@ -1,0 +1,102 @@
+.main {
+    line-height: 1.5;
+}
+
+.main .nav {
+    height: 60px;
+    background-color: #47464a;
+    color: #999;
+    text-align: center;
+    line-height: 60px;
+}
+
+.main .nav a {
+    margin: 0 38px;
+}
+
+.main .nav a:hover {
+    color: #fff;
+}
+
+.main .nav a.select {
+    color: red;
+}
+
+.main .container {
+    width: 1120px;
+    margin: 0 auto;
+}
+
+.main .container .choose-area {
+    border: 1px solid #e5e5e5;
+    margin: 40px 0;
+    line-height: 30px;
+    padding: 0 10px;
+}
+
+.main .container .choose-area .choose-item {
+    margin: 10px auto;
+    border-bottom: 1px dashed #e5e5e5;
+}
+
+.main .container .choose-area .choose-item.no-line {
+    border: none;
+}
+
+.main .container .choose-area .choose-item .left {
+    float: left;
+    width: 60px;
+    color: #999;
+    padding-top: 14px;
+}
+
+.main .container .choose-area .choose-item .right {
+    float: left;
+    width: 1000px;
+}
+
+.main .container .choose-area .choose-item .right ol {
+    height: 15px;
+    padding-top: 0x;
+}
+
+.main .container .choose-area .choose-item .right ol li {
+    float: left;
+    margin: 0 20px;
+    text-align: center;
+}
+
+.main .container .choose-area .choose-item .right ol li .select{
+    background-color: red;
+    color: white;
+    border-radius: 20px;
+}
+
+.main .container .movies .movie-item {
+    float: left;
+    width: 213px;
+    border: 1px solid red;
+    margin-right: 10px;
+    margin-bottom: 20px;
+}
+
+.main .container .movies .movie-item:nth-child(5n) {
+    margin-right: 0;
+    border: 2px solid blue;
+}
+.main .container .movies .movie-item .img a img {
+    width: 213px;
+}
+
+.main .container .movies .movie-item .name {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    text-align: center;
+}
+
+.main .container .movies .movie-item .score {
+    text-align: center;
+    color: #ffb400;
+}
+

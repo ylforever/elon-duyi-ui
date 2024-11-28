@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P43 美化表单元素</title>
+
+    <link rel="stylesheet" href="css/input.css"></link>
+</head>
+<body>
+    <h2>1. foucs 元素聚焦时的样式</h2>
+    <p>
+        <a tabindex="1" href="https://www.baidu.com">百度</a>
+    </p>
+    <p>
+        <input tabindex="2" type="text">
+    </p>
+    <p>
+        <input tabindex="3" type="button" value="提交">
+    </p>
+
+    <h2>2. checked 单选或者多选框被选中时的样式</h2>
+    <p>
+        <label>性别:</label>
+        <input id="male" name="hhhj" type="radio">
+        <label for="male">男</label>
+        
+        <input id="female" name="hhhj" type="radio">
+        <label for="female">女</label>
+    </p>
+
+    <h2>3. 设置多行文本框是否可以调整尺寸</h2>
+    <P>
+        <label>备注:</label>
+        <textarea placeholder="设置resize的值">
+        </textarea>
+    </P>
+
+    <h2>4. 单选框和多选框</h2>
+    <p>
+        选择性别:
+        <label class="radio-item">
+            <input name="gender" type="radio">
+            <span class="radio"></span>
+            <span>男</span>
+        </label>
+        <label class="radio-item">
+            <input  name="gender" type="radio">
+            <span class="radio"></span>
+            <span>女</span>
+        </label>
+    </p>
+</body>
+</html>
