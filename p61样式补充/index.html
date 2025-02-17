@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p61样式补充</title>
+
+    <style>
+        .div1 {
+            margin: 20px;
+            width: 100px;
+            height: 100px;
+            background-color: #008c8c;
+            display: list-item;
+            list-style-type: circle;
+            list-style-position: inside;
+        }
+
+        .img1{
+            width: 50px;
+            height: 50px;
+            display: inline-block;
+            border: 1px solid;
+        }
+
+        .a1{
+            border: 1px solid red;
+            display: inline-block;
+        }
+
+        .img2{
+            display: block;
+        }
+
+        .p1{
+            width: 300px;
+            border: 1px solid;
+            text-align: justify;
+        }
+
+        .div2{
+            width: 0;
+            height: 0;
+            border: 10px solid transparent;
+            border-left-color: #008c8c; 
+        }
+
+        .p2{
+            width: 500px;
+            direction:rtl;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>一、display: list-item</h1>
+    <p>1. 设置为该属性的盒子，本质上任然是一个块盒，但同时该盒子会附带另一个盒子。元素本身生成的盒子叫主盒子。附带的盒子成为次盒子。
+        次盒子和主盒子水平排列，且先排列次盒子。
+    </p>
+    <p>2. 设置次盒子的属性: list-style-xxx</p>
+    <p>3. 清空次盒子：list-style: none</p>
+
+    <div class="div1">
+        主盒子
+    </div>
+
+    <h1>二、图片失效时的宽高问题</h1>
+    <p>1. img元素的图片链接失效时宽高无效</p>
+    <p>2. 解决放案：设置为块盒或者行块盒。</p>
+    <img class="img1" src="" alt="失效图片">
+
+    <h1>三、行盒中包含行块盒或者可替换元素</h1>
+    <p>导致行盒的高度与内部包含的行块盒及可替换元素的高度无关。</p>
+    <a class="a1" href="www.baidu.com">
+        <img class="img2" src="imge/th.jpg" alt="">
+    </a>
+
+    <h1>四、text-align属性justify</h1>
+    <p>justify: 除最后一行外分散对齐。自适应。平均分布空白。</p>
+    <p class="p1">
+        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Autem dolores odio corporis quo eligendi debitis, maiores voluptatibus veritatis officia repellendus beatae voluptatum deserunt eum saepe, quasi ad ipsam architecto sequi veniam pariatur possimus. Nisi quas neque hic, illum debitis numquam eos eaque aliquam alias ratione doloremque incidunt quisquam dicta rerum doloribus, voluptas error accusamus harum. Soluta, ut velit. Reprehenderit nihil perferendis beatae illo velit provident sit, tenetur magnam odio minima quo consequuntur dolorum ratione consectetur quia quasi eum deleniti dignissimos delectus dolor iusto eos similique iste. Laborum repellat itaque doloribus cumque earum. Provident, impedit. Praesentium impedit optio neque quibusdam. Excepturi.
+    </p>
+
+    <h1>五、制作一个三角形</h1>
+    <p>用元素制作三角性。还可以用图片或字体图标</p>
+    <div class="div2">
+    </div>
+
+    <h1>六、direction和writing-mode属性</h1>
+    <h2>1. 不同国家的start和end的方式可能不一样。direction设置开始和结束的方向。</h2>
+    <p class="p2">不同国家的start和end的方式可能不一样</p>
+    <h2>2. writing-mode: 设置文字书写方向。</h2>
+    <div style="writing-mode: vertical-rl;width: 100%;">
+        <p class="p3">静夜思</p>
+        <p class="p3">床前明月光</p>
+        <p class="p3">疑是地上霜</p>
+        <p class="p3">举头望明月</p>
+        <p class="p3">低头思故乡</p>
+    </div>
+
+    <h1>七、关于UTF-8字符</h1>
+    <h2>1. web字体图标使用的是utf-8编码。使用伪类元素时需要用\书写。</h2>
+    <p>
+        &#x8FD8;&#x662F;&#x5927;&#x6570;&#x636E;&#x65F6;&#x4EE3; &#x662F;&#x7684;&#x662F;&#x7684;ut-8
+    </p>
+</body>
+
+
+</html>

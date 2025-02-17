@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p60居中总结</title>
+    <style>
+        .hang_he_juzhong{
+            width: 500px;
+            height: 100px;
+            background-color: #008c8c;
+            text-align: center;
+        }
+
+        .kuai_he_juzhong {
+            width: 500px;
+            height: 300px;
+            background-color: #008c8c;
+        }
+
+        .kuai_he_juzhong1{
+            width: 500px;
+            height: 300px;
+            background-color: #008c8c;
+            position: relative;
+        }
+
+        .p1 {
+            width: 100px;
+            height: 50px;
+            background-color: red;
+            margin:2px auto;
+        }
+
+        .p2 {
+            width: 100px;
+            height: 50px;
+            background: blue;
+            position: absolute;
+            left: 0;
+            right: 0;
+            margin: auto;
+        }
+
+        .cui_zhi_juzhong{
+            height: 200px;
+            width: 500px;
+            background-color: #008c8c;
+            text-align: center;
+            display: inline-block;
+            line-height: 200px;
+        }
+    </style>
+</head>
+<body>
+    <h1>盒子在包含块中水平居中.</h1>
+    <h2>1. 行盒或者行块盒居中</h2>
+    <h3>1.1 行盒的水平居中：设置行盒父元素的text-align:center</h3>
+    <div class="hang_he_juzhong">
+        <span>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Recusandae, dolor?</span>
+        <input type="text">
+        <span>Lorem ipsum dolor sit amet.</span>
+        <a href="sss">超链接</a>
+    </div>
+
+    <h2>2. 常规流块盒的水平居中</h2>
+    <h3>2.1 定宽，再设置左右margin为auto</h3>
+    <div class="kuai_he_juzhong1">
+        <p class="p1"></p>
+        <p class="p1"></p>
+    </div>
+
+    <h2>3. 绝对定位元素的水平居中</h2>
+    <h3>3.1 定宽。 左右设置为0，margin设置为auto</h3>
+    <div class="kuai_he_juzhong1">
+        <p class="p2"></p>
+    </div>
+
+    <h1>盒子在包含块中垂直居中</h1>
+    <h2>1. 单行文本的垂直居中</h2>
+    <h3>1.1 设置文本所在元素的行高为整个区域的高度</h3>
+    <span class="cui_zhi_juzhong">
+        垂直居中
+    </span>
+
+    <h2>2. 块盒内的多行文本垂值居中（不能设置高度,没有完美方案）</h2>
+    <div style="width: 500px; padding: 50px 0; background-color: #008c8c;">
+        Lorem ipsum, dolor sit?
+    </div>
+
+    <h2>3. 绝对定位的垂直居中</h2>
+    <h3>3.1 定高。上下设置为0，上下margin设置为auto</h3>
+    <div style="position: relative; width: 500px; height: 200px;background-color: #008c8c;">
+        <span style="position: absolute; top: 0;bottom: 0; margin: auto;height: 50px;">Lorem ipsum dolor sit amet.</span>
+    </div>
+</body>
+</html>

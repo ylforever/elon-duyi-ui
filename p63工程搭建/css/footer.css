@@ -1,0 +1,52 @@
+@import "common.css";
+
+.douban-footer-area .classify-container{
+    font: 12px Helvetica,Arial,sans-serif;
+    line-height: 1.62;
+}
+
+.douban-footer-area .classify-container .permit{
+    width: 550px;
+}
+
+.douban-footer-area .classify-container .permit .email{
+    width: 109px;
+    height: 16px;
+}
+
+.douban-footer-area .classify-container .permit .tousu{
+    height: 16px;
+    line-height: 16px;
+}
+
+.douban-footer-area .classify-container .permit .jubao{
+    height: 16px;
+    line-height: 16px;
+}
+
+.douban-footer-area .classify-container .permit .official {
+    height: 20px;
+    line-height: 20px;
+    margin-top: 5px;
+}
+
+.douban-footer-area .classify-container .permit .official .hulianwang img{
+    width: 15px;
+    height: 12px;
+}
+
+.douban-footer-area .classify-container .contact{
+    width: 350px;
+    margin-top: 10px;
+}
+
+.douban-footer-area .classify-container .contact .item{
+    height: 14px;
+    line-height: 14px;
+    box-sizing: border-box;
+    margin-left: 2px   ;
+}
+
+.douban-footer-area .classify-container .contact .item .icon-dian{
+    font-size: 0.3em;
+}

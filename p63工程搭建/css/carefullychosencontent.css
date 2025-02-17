@@ -1,0 +1,115 @@
+@import "common.css";
+
+/*精选内容样式设置开始*/
+.douban-content-area .carefully-chosen-content .classify-container .carefully-chosen-content-link{
+    height: 22px;
+    line-height: 22px;
+}
+
+.douban-content-area .carefully-chosen-content .carefully-chosen-contianer .list{
+    width: 656px;
+}
+
+.douban-content-area .carefully-chosen-content .carefully-chosen-contianer .list ul{
+    padding-left: 0;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item{
+    border-bottom: 1px solid #ccc;
+    margin: 20px 0;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list ul .item:last-child{
+    border-bottom: none;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .from{
+    color: #ccc;
+    font-size: 13px;
+    margin-bottom: 10px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text{
+    width: 490px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .author-info{
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .author-info .user-name{
+    margin-left: 5px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .title{
+    font-size: 14px;
+    line-height: 1.3;
+    color: #669;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .brief{
+    color: #666;
+    font-size: 13px;
+    margin-top: 10px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .interactively-record{
+    font-size: 13px;
+    color: #999;
+    margin: 10px 0;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .interactively-record .like-num{
+    margin-left: 5px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .text .interactively-record .transmit-num{
+    margin-left: 5px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .list .item .context .picture img{
+    width: 120px;
+    height: 120px;
+}
+
+/*精选内容样式设置结束*/
+
+/*热门话题样式设置开始*/
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics{
+    width: 250px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .advertising img{
+    width: 250px;
+    height: 125px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .trending-list ul{
+    padding-left: 0;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .trending-list{
+    text-align: left;
+}
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .trending-list .item{
+    margin-bottom: 10px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .trending-list .item .title{
+    color: #37a;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .trending-list .item .statistics{
+    color: #aaa;
+    font-size: 13px;
+}
+
+.carefully-chosen-content .classify-container .carefully-chosen-contianer .trending-topics .trending-list .item .statistics .browse-num{
+    margin-left: 10px;
+}
+
+/*热门话题样式设置结束*/

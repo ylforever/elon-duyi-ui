@@ -1,0 +1,64 @@
+.container {
+    width: 900px;
+}
+
+/*左右浮动，定宽*/
+.container .aside {
+    background-color: #008c8c;
+    border: 1px solid #ccc;
+    float: left;
+    width: 300px;
+    height: 900px;
+    box-sizing: border-box;
+}
+
+.container .main {
+    background-color: red;
+    border: 1px solid red;
+    float: right;
+    width: 600px;
+    height: 900px;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+/*右侧主区域不定宽*/
+.container .aside1 {
+    background-color: #008c8c;
+    border: 1px solid #ccc;
+    width: 300px;
+    height: 900px;
+    box-sizing: border-box;
+    float: right;
+    margin-left: 2px;
+}
+
+.container .main1 {
+    background-color: red;
+    border: 1px solid red;
+    height: 900px;
+    box-sizing: border-box;
+    overflow: scroll;
+}
+
+/*三栏布局*/
+.left {
+    background-color: #008c8c;
+    width: 200px;
+    height: 900px;
+    float: left;
+}
+
+.right {
+    background-color: yellow;
+    width: 200px;
+    height: 900px;
+    float: right;
+}
+
+.three-main {
+    overflow: hidden;   
+    border: 1px solid red;
+    box-sizing: border-box;
+    height: 900px;
+}

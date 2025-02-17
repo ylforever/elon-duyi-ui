@@ -1,0 +1,79 @@
+@import "reset.css";
+@import "//at.alicdn.com/t/c/font_4764958_7nd3d7p9rut.css";
+
+/*公共样式*/
+.container{
+    width: 1244px;
+    margin: 0 auto;
+}
+
+.float-left{
+    float: left;
+}
+
+.float-right{
+    float: right;
+}
+
+button{
+    cursor: pointer;
+}
+
+.text-box{
+    height: 32px;
+    width: 100%;
+    border: 1px solid #e4e6e5;
+    box-sizing: border-box;
+    font-size: 13px;
+    text-indent: 10px;
+    border-radius: 3px;
+}
+
+.hidden{
+    display: none;
+}
+
+.classify-container{
+    width: 950px;
+    height: 650px;
+    /* background-color: #008c8c; */
+    margin: 0 auto;
+    box-sizing: border-box;
+}
+
+/*分类标题*/
+.classify-title{
+    color: #072;
+    font: 15px Arial, Helvetica, sans-serif;
+    line-height: 150%;
+}
+
+/*更多扩展超链接*/
+.classify-more-hyperlink a{
+    color: #669;
+    text-decoration: none;
+    font: 12px Arial, Helvetica, sans-serif;
+}
+
+/*页脚超链接*/
+.footer-hyperlink{
+    color: #37a;
+    font: 12px Helvetica,Arial,sans-serif;
+}
+
+/*话题超链接*/
+.classify-topic-hyperlink{
+    color: #37a;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.right-shenlvehao {
+    margin-left: -5px;
+}
+
+/*鼠标悬停到文本的样式*/
+.hover-text:hover{
+    background-color: #37a;
+    color: white !important;
+}

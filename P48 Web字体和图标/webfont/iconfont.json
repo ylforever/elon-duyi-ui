@@ -1,0 +1,37 @@
+{
+  "id": "4764958",
+  "name": "myfont",
+  "font_family": "iconfont",
+  "css_prefix_text": "icon-",
+  "description": "",
+  "glyphs": [
+    {
+      "icon_id": "1304896",
+      "name": "用户",
+      "font_class": "yonghu",
+      "unicode": "e624",
+      "unicode_decimal": 58916
+    },
+    {
+      "icon_id": "10357051",
+      "name": "用户",
+      "font_class": "yonghu1",
+      "unicode": "e69f",
+      "unicode_decimal": 59039
+    },
+    {
+      "icon_id": "21034451",
+      "name": "用户",
+      "font_class": "yonghu2",
+      "unicode": "e63c",
+      "unicode_decimal": 58940
+    },
+    {
+      "icon_id": "36874779",
+      "name": "用户",
+      "font_class": "yonghu3",
+      "unicode": "e6f2",
+      "unicode_decimal": 59122
+    }
+  ]
+}

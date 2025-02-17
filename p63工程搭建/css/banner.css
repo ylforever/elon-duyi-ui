@@ -1,0 +1,69 @@
+@import "common.css";
+
+.banner-area{
+    width: 100%;
+    height: 304px;
+    position: relative;
+    background: url("../image/banner-background-pic.jpg") no-repeat;
+    background-color: #edf4ed;
+    background-size: contain;
+    background-position: 5%;
+}
+
+.banner-area .container{
+    height: 304px;
+}
+
+.banner-item{
+    float: left;
+}
+
+.download{
+    height: 100%;
+    width: 155px;
+}
+
+.download-btn{
+    margin-top: 20px;
+}
+
+.download-btn button{
+    height: 36px;
+    margin-right: 5px;
+    background-color: #00b51d;
+    color: white;
+}
+
+.douban-content-area .banner-area .container .download{
+    padding-left: 600px;
+}
+
+.douban-content-area .banner-area .container .download .download-btn .download-item{
+    background: url("../image/erweimaxiazai.png") no-repeat;
+    background-size: contain;
+    width: 37px;
+    height: 37px;
+    border: 1px solid #48aa0d;
+    box-sizing: border-box;
+}
+
+.douban-version{
+    margin-top: 90px;
+}
+
+.douban-content-area .banner-area .container .login-area{
+    height: 300px;
+    width: 300px;
+    /* border: 1px solid; */
+    margin-left: 30px;
+}
+
+.douban-content-area .movie-list{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.douban-content-area .movie-list img{
+    width: 950px;
+    height: 90px;
+}

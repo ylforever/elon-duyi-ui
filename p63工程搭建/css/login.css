@@ -1,0 +1,328 @@
+@import "common.css";
+
+/*登录区域样式开始*/
+.login-register-area{
+    width: 300px;
+    height: 296px;
+    position: relative;
+}
+
+/*登录区域样式结束*/
+
+/*tab页签样式设置开始*/
+.login-tab{
+    position: relative;
+}
+
+.login-tab ul{
+    margin-top: 0;
+    display: inline-block;
+}
+
+.login-tab a{
+    font-size: 12px;
+}
+
+.login-tab .select-tab{
+    border-bottom: 1px solid #4a4a4a;
+    color: #404040;
+    font-weight: bold;
+}
+
+.duanxin-login{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 140px;
+    text-align: center;
+    color: #9c9c9c;
+    line-height: 26px;
+    font-size: 12px;
+    border-bottom: 1px solid #F6F9F6;
+}
+
+.password-login{
+    position: absolute;
+    top: 0;
+    right: 0;
+    width: 140px;
+    text-align: center;
+    color: #9c9c9c;
+    line-height: 26px;
+    font-size: 12px;
+    border-bottom: 1px solid #F6F9F6;
+}
+
+/*tab页签样式设置结束*/
+
+
+/*短信登录内容区样式设置开始*/
+.hyperlink{
+    font-size: 12px;
+    color: #57b567;
+    cursor: pointer;
+}
+
+.login-content {
+    border-bottom: 1px solid #E4E8E4;
+    height: 190px;
+}
+
+.login-register-area .input-login .duanxin-login-content .login-item p{
+    margin-top: 6px;
+}
+
+.login-register-area .input-login .login-item{
+    margin: 8px 0;
+    height: 32px;
+    line-height: 32px;
+    /* border: 1px solid; */
+    box-sizing: border-box;
+    font-size: 12px;
+    width: 100%;
+}
+
+.mobile-num .text-box{
+    line-height: 32px;
+    padding-left: 3em;
+}
+
+.mobile{
+    position: relative;
+}
+
+.select-guoji-quhao .country-code{
+    position: absolute;
+    left: 0;
+    top: 4px;
+    width: 40px;
+    height: 24px;
+    line-height: 24px;
+    border-right: 1px solid #e4e6e5;
+    text-align: center;
+    font-weight: 700;
+    font-size: 14px;
+    cursor: pointer;
+}
+
+.select-guoji-quhao .code-options{
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 280px;
+    height: 300px;
+    background-color: rgb(180, 186, 180, 0.5);
+    z-index: 1;
+    margin-left: 4px;
+}
+
+.select-guoji-quhao .code-options .country-code-select{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    margin: auto 15px;
+    width: 250px;
+    height: 280px;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.select-guoji-quhao .code-options .country-code-select .dlg-title{
+    height: 43px;
+    line-height: 43px;
+    background-color: #EBF5EB;
+    /* border-top-left-radius: 10px;
+    border-top-right-radius: 10px; */
+}
+
+.select-guoji-quhao .code-options .country-code-select .dlg-title .title{
+    padding-left: 10px;
+    font-size: 16px;
+    font-weight: 700;
+    color: #060;
+}
+
+.select-guoji-quhao .code-options .country-code-select .dlg-title .icon-guanbi{
+    margin-right: 5px;
+    cursor: pointer;
+}
+
+.code-options .country-code-select .code-list{
+    width: 100%;
+    height: 237px;
+    overflow-y: scroll;
+    background-color: white;
+    margin-bottom: 10px;
+    /* border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px; */
+}
+
+.code-options .code-list .code-item{
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 2.6em;
+    /* border-bottom: 1px solid #F2F2F2; */
+    border-top: 1px solid #F2F2F2;
+    cursor: pointer;
+}
+
+.code-options .code-list .code-item:last-child{
+    border-bottom: 1px solid #F2F2F2;
+}
+
+.code-options .country-code-select .code-list ul{
+    padding-left: 10px;
+}
+
+.code-options .code-list .code-item .icon-gou{
+    margin-left: 5px;
+}
+
+.code-options .code-list .code-item div:nth-child(3){
+    color: #E4E4E4;
+}
+
+.code-options .code-list .code-item .selected{
+    color: #42BD56;
+}
+
+.code-options .code-list .code-item .selected:nth-child(3){
+    color: #42BD56;
+}
+
+.identifying-code{
+    position: relative;
+}
+
+.identifying-code .get-code {
+    position: absolute;
+    right: 0;
+    top: 0;
+    line-height: 32px;
+    margin-right: 8px;
+}
+
+.login-register-area .input-login .login-btn button{
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-color: #00BB30;
+    color: white;
+    font-weight: 400px;
+}
+
+.login-register-area .input-login .login-btn button:disabled{
+    background-color: #97D9A1;
+}
+
+.login-register-area .input-login .duanxin-login-content .shoubudaoyanzhengma p{
+    text-align: right;
+}
+
+.disanfangdenglu p{
+    height: 20px;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.disanfangdenglu i{
+    margin: 12px 4px;
+    height: 20px;
+    line-height: 20px;
+    font-size: 1.5em;
+}
+
+.disanfangdenglu .icon-weixin{
+    color: #64C574;
+    cursor: pointer;
+}
+
+.disanfangdenglu .icon-weibo{
+    color: #F27272;
+    cursor: pointer;
+}
+
+/*短信登录内容区样式结束*/
+
+/*账号密码登录区域样式开始*/
+.select-login-content{
+    display: block;
+}
+
+.password-login-content .login-content p{
+    text-align: right;
+}
+
+.password-login-content .login-content .mobile-email{
+    border: 1px solid #E9EDE9;
+}
+
+.password-login-content .login-content .mobile-email input{
+    width: 100%;
+    height: 100%;
+    padding: 0 0;
+}
+
+.password-login-content .login-content .password{
+    border: 1px solid #E9EDE9;
+}
+
+.password-login-content .login-content .password input{
+    width: 100%;
+    height: 100%;
+    padding: 0 0;
+}
+
+/*账号密码登录区域样式结束*/
+
+/*扫码登录样式开始*/
+.login-register-area .qr-login{
+    font-size: 12px;
+}
+
+.login-register-area .qr-icon{
+    height: 30px;
+}
+
+.login-register-area .qr-login .title{
+    font-size: 12px;
+    color: #333;
+    font-weight: 600;
+    border-bottom: 1px solid #F2F2F2;
+    height: 24px;
+}
+
+.login-register-area .qr-login .qr-image{
+    margin: 15px;
+}
+
+.login-register-area .qr-login .qr-image img{
+    width: 170px;
+    height: 170px;
+    display: block;
+    margin: 0 auto;
+}
+
+.login-register-area .qr-login .tip{
+    height: 25.5px;
+    line-height: 25.5px;
+    text-align: center;
+    background-color: #DAE1DA;
+    border-radius: 10px;
+}
+
+.login-register-area .qr-icon .qr-open {
+    height: 30px;
+    background: url("../image/qr-open.png") no-repeat right;
+    background-size: contain;
+    cursor: pointer;
+}
+
+.login-register-area .qr-icon .qr-close {
+    height: 30px;
+    background: url("../image/qr-close.png") no-repeat right;
+    background-size: contain;
+    cursor: pointer;
+}
+
+/*扫码登录样式结束*/

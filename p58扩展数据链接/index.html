@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p58扩展数据链接（学习到第4分钟）</title>
+
+    <!-- 将文件内容写在url处 -->
+    <link rel="stylesheet" href="data:text/css,span{color:red}">
+</head>
+<body>
+    <h2>数据链接(data url):将目标文件的数据直接写到路径位置。</h2>
+    <h3>书写格式： data:/MIME类型,数据</h3>
+
+    <span>条幅</span>
+
+    <h2>优缺点：</h2>
+    <h3>1. 减少请求次数。 2. 有利于动态生成.</h3>
+    <h3>1. 增加了页面资源的体积，导致传输内容增加。2. 不利于浏览器缓存静态文件。</h3>
+
+    <h2>应用场景：</h2>
+    <h3>1. 请求单个图片文件比较小，且不太适合制作雪碧图的情况。2. 图片由JS或者java代码动态生成，且图片较小。</h3>
+</body>
+</html>

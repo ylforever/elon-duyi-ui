@@ -1,0 +1,27 @@
+@import "common.css";
+
+.douban-header-area{
+    background-color: #edf4ec;
+    width: 100%;
+    height: 33px;
+    line-height: 33px;
+}
+
+.header-logo{
+    height: 33px;
+    line-height: 33px;
+    position: relative;
+}
+
+.header-logo h1 a{
+    width: 102px;
+    height: 20px;
+    display: inline-block;
+    background: url("../image/doubanlogo.png") no-repeat 100% 100%;
+    background-size: cover;
+    margin-left: 12px;
+}
+
+.header-logo h1 a span{
+    display: none;
+}

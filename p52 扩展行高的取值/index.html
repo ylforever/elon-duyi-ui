@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>P52 行高的取值</title>
+    <style>
+        .container {
+            /*行高写数字先继承再计算，默认不写单位*/
+            line-height: 2;
+        }
+
+        .s1 {
+            font-size: large;
+        }
+
+        .s2 {
+            font-size: small;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div>
+            <span class="s1">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae, dolores.
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Debitis, architecto doloribus. Eveniet dignissimos quia a similique alias ad rem maxime pariatur, sunt ipsum magnam atque, incidunt accusamus, modi blanditiis aliquam?
+            </span>
+        </div>
+
+        <div>
+            <span class="s2">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vero, laudantium.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Id tempora, provident et architecto enim ex delectus similique, cumque sed cupiditate saepe dolor, eligendi autem praesentium necessitatibus beatae ipsum perferendis iste?
+            </span>
+        </div>
+    </div>
+</body>
+</html>

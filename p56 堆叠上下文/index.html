@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p56 堆叠上下文</title>
+
+    <style>
+        .container {
+            position: relative;
+            z-index: 1;
+            background-color: #008c8c;
+            width: 500px;
+            height: 500px;
+        }
+
+        .sub {
+            background-color: red;
+            width: 100px;
+            height: 100px;
+        }
+    </style>
+
+</head>
+<body>
+    <h2>z-index参数</h2>
+    <span>规定了一个区域，重叠元素的显示顺序。</span>
+    <h2>创建堆叠上下文的元素。</h2>
+    <h3>1. html元素</h3>
+    <h3>2. 设置了z-index的定位元素(position不为auto)</h3>
+
+    <div class="container">
+        <div class="sub">
+
+        </div>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In quis atque libero earum, nobis quia, molestiae eaque eligendi ad repellat ab, consequuntur exercitationem doloribus nulla neque quaerat enim consequatur assumenda!</p>
+    </div>
+
+    <h3>
+        同一个堆叠上下文的元素在Z轴上的排列顺序（从后到前）：
+        <li>
+            <ol>1.创建堆叠上下文元素的背景和边框。</ol>
+            <ol>2.堆叠级别为负值的堆叠上下文。（都是负数，值越大越靠前）。</ol>
+            <ol>3.常规流非定位块盒。</ol>
+            <ol>4.非定位浮动盒子。</ol>
+            <ol>5.常规流非定位行盒。</ol>
+            <ol>6.z-index为auto的定位元素。以及z-index为0的堆叠上下文。</ol>
+            <ol>7.堆叠级别为正的的堆叠上下文。</ol>
+        </li>
+    </h3>
+</body>
+</html>

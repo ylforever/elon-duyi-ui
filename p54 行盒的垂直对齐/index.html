@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>p54 行盒的垂直对齐</title>
+    <link rel="stylesheet" href="//at.alicdn.com/t/c/font_4764958_ta64hndcgnk.css">
+
+    <style>
+        input[type="checkbox"] {
+            width: 30px;
+            height: 30px;
+            vertical-align: -9px;
+        }
+
+        .icon-yonghu1 {
+            font-size: 3em;
+            color: red;
+            vertical-align: -10px;
+        }
+
+        .img {
+            border: 1px solid;
+        }
+
+        .img img {
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <h2>1. 多个行盒垂直对齐</h2>
+    <h3>1.1 使用vertical-align对齐</h3>
+    <p>
+        <input type="checkbox">
+        <span>我同意xxx</span>
+    </p>
+
+    <p>
+        <i class="iconfont icon-yonghu1"></i>
+        <span>请联系我</span>
+    </p>
+
+    <h2>2. 图片的底部白边. </h2>
+    <h3>2.1 图片的父元素是块盒, 宽度自适应。在图片底部往往会会出现白边。</h3>
+    <h3>解决方法：将图片设置为块盒。</h3>
+    <div class="img">
+        <img src="image/1380747ee2807b0e8a84846f26c3eff1.jpeg" alt="">
+    </div>
+</body>
+</html>

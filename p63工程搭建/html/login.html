@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>登录页面(53分)</title>
+    <link rel="stylesheet" href="../css/login.css">
+</head>
+<body>
+    <div class="login-register-area">
+        <!--二维码登录切换图标-->
+        <div class="qr-icon">
+            <div class="qr-open ">
+            </div>
+            <div class="qr-close hidden">
+            </div>
+        </div>
+
+        <!--用户输入信息登录-->
+        <div class="input-login ">
+            <!--Tab标题切换区域-->
+            <div class="login-tab clearfix">
+                <li>
+                    <ul>
+                        <div class="duanxin-login select-tab">
+                            <a href="">短信登录/注册</a>
+                        </div>
+                    </ul>
+                    <ul>
+                        <div class="password-login ">
+                            <a href="">密码登录</a>
+                        </div>
+                    </ul>
+                </li>
+            </div>
+
+            <!--短信登录区域-->
+            <div class="duanxin-login-content  hidden">
+                <div class="login-content">
+                    <div class="login-item">
+                        <p class="read-me">请仔细阅读
+                            <a href="" class="hyperlink">豆瓣使用协议、豆瓣个人信息保护政策</a>
+                        </p>
+                    </div>
+        
+                    <div class="mobile login-item">
+                        <div class="select-guoji-quhao">
+                            <div class="country-code">
+                                +86
+                            </div>
+                            <div class="code-options hidden">
+                                <div class="country-code-select">
+                                    <div class="dlg-title clearfix">
+                                        <div class="title float-left">选择国际区号</div>
+                                        <div>
+                                            <i class="iconfont icon-guanbi float-right"></i>
+                                        </div>
+                                    </div>
+                                    
+                                    <div class="code-list">
+                                        <ul>
+                                            <li class="code-item clearfix">
+                                                <div class="coutry-name float-left selected">中国大陆</div>
+                                                <div class="iconfont icon-gou float-left selected"></div>
+                                                <div class="code-value float-right selected">+86</div>
+                                            </li>
+                                            <li class="code-item clearfix">
+                                                <div class="coutry-name float-left">中国香港</div>
+                                                <div class="selected-flag float-left"></div>
+                                                <div class="float-right">+852</div>
+                                            </li>
+                                            <li class="code-item clearfix">
+                                                <div class="coutry-name float-left">中国澳门</div>
+                                                <div class="selected-flag float-left"></div>
+                                                <div class="float-right">+853</div>
+                                            </li>
+                                            <li class="code-item clearfix">
+                                                <div class="coutry-name float-left">中国台湾</div>
+                                                <div class="selected-flag float-right"></div>
+                                                <div class="float-right">+886</div>
+                                            </li>
+                                            <li class="code-item clearfix">  
+                                                <div class="coutry-name float-left">日本</div>
+                                                <div class="selected-flag float-left"></div>
+                                                <div class="float-right">+81</div>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="mobile-num">
+                            <input type="text" placeholder="手机号" class="text-box">
+                        </div>
+                    </div>
+        
+                    <div class="identifying-code login-item">
+                        <div class="get-code">
+                            <a href="" class="hyperlink">获取验证码</a>
+                        </div>
+                        <div>
+                            <input type="text" placeholder="验证码" class="text-box">
+                        </div>
+                    </div>
+        
+                    <div class="login-btn login-item">
+                        <button>登录豆瓣</button>
+                    </div>
+        
+                    <div class="shoubudaoyanzhengma login-item">
+                        <p class="hyperlink">收不到验证码</p>
+                    </div>
+                </div>  
+            </div>
+
+            <!--密码登录区域-->
+            <div class="password-login-content select-login-content">
+                <div class="login-content">
+                    <div class="login-item">
+                        <p class="hyperlink">找回密码</p>
+                    </div>
+                    <div class="login-item mobile-email">
+                        <input type="text" placeholder="手机号/邮箱">
+                    </div>
+                    <div class="login-item password">
+                        <input type="password" placeholder="密码">
+                    </div>
+                    <div class="login-btn login-item">
+                        <button disabled>登录豆瓣</button>
+                    </div>
+                    <div class="login-item">
+                        <p class="hyperlink">海外手机登录</p>
+                    </div>
+                </div> 
+            </div>
+
+            <!--第三方登录区域-->
+            <div class="disanfangdenglu clearfix">
+                <p class="float-left">第三方登录:</p>
+                <i class="iconfont icon-weixin float-left"></i>
+                <i class="iconfont icon-weibo float-left"></i>
+            </div> 
+        </div>
+
+        <!--二维码登录-->
+        <div class="qr-login hidden">
+            <div class="title">
+                二维码登录
+            </div>
+            <div class="qr-image">
+                <img src="../image/qr-login.png">
+            </div>
+            <div class="tip">
+                <p>请打开豆瓣App扫一扫或
+                    <span class="hyperlink">短信登录验证</span>
+                </p>
+            </div>
+        </div>
+    </div>
+</body>
+</html>
